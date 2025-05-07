@@ -75,3 +75,30 @@ npx expo start
 npx expo start --web
 
 
+## How to make changes and commit
+
+
+# 1. Clone the repo (only once)
+git clone https://github.com/devkorki/ChurnApp.git
+cd ChurnApp
+
+# 2. Pull latest code before working
+git checkout main
+git pull origin main
+
+# 3. Create your own branch (use your name)
+git checkout -b dev/yourname-feature-name
+
+# 4. Make your changes (write code)
+
+# 5. Stage your changes
+git add .
+
+# 6. Commit your changes
+git commit -m "Describe what you added or changed"
+
+# 7. Push your branch to GitHub
+git push -u origin dev/yourname-feature-name
+
+
+
